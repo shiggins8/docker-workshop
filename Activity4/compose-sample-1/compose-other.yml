@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+
+  alpha:
+    image: alpine
+    container_name: alpha
+    command: tail -f /dev/null
+
+  beta:
+    image: alpine
+    command: tail -f /dev/null
